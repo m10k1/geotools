@@ -21,8 +21,8 @@ class Config:
         output_file (str): 出力されるGeoPackageのファイル名。
     """
 
-    root_folder: str = "path/to/your/images"
-    output_file: str = "output.gpkg"
+    root_folder: str = r"C:\Users\skyfl\reps\mygit\geotools\0679\d"
+    output_file: str = r"C:\Users\skyfl\reps\mygit\geotools\output\output.gpkg"
 
 cs = ConfigStore.instance()
 cs.store(name="config", node=Config)
